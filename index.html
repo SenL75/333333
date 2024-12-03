@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <link href="./styles.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h1 class="header_text">Девушка красавица,а вы случаем не юрист?</h1>
+            </div>
+            <div class="gif_container">
+                <img src="https://i.postimg.cc/mDQssD0b/i-Stock-1091742874.jpg">
+            </div>
+            <div class="buttons">
+                <button class="btn" id="yesButton" onclick="nextPage()">Безусловно</button>
+                <button class="btn" id="noButton" onclick="nextPage1()">Нет</button>
+                <script>
+                    function nextPage() {
+                        window.location.href = "yes.html";
+                    }
+                    function nextPage1() {
+                        window.location.href = "no.html";
+                    }
+                </script>
+            </div>
+        </div>
+    </body>
+</html>
+
+
